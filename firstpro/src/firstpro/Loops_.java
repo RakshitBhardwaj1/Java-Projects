@@ -26,9 +26,12 @@ public class Loops_ {
 		
 //		Print the number till 10
 		
-//		for(int i=0;i<11;i++) {
-//			System.out.println(i);
-//		}
+		for(int i=0;i<11;i++) {
+			if(i==5) {
+				continue;
+			}
+			System.out.println(i);
+		}
 		
 //		WHILE LOOP
 		
